@@ -1,1 +1,1 @@
-export const settings = { host: "https://library-2iir.onrender.com"};
+export const settings = { host: 'http://localhost:3030' };

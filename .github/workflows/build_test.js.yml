@@ -22,9 +22,9 @@ jobs:
     - name: Install package.json dependancies
       run: npm install
     - name: Start Backend
-      run: npm run start-be
+      run: npm run start-be &
     - name: Start Frontend
-      run: npm run start-fe
+      run: npm run start-fe &
     - name: Execute Playwright UI tests
       run: npm run test
     
